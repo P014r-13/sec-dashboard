@@ -1,0 +1,4 @@
+curl -X POST http://localhost:5000/api/events/ingest \
+  -H "Content-Type: application/json" \
+  -H "X-Api-Key: sk-a317b921fdab9881a835342f" \
+  -d '{"user_email":"user@test.com","ip":"1.2.3.4","country":"Iran","device":"Chrome / Windows","status":"success"}'
